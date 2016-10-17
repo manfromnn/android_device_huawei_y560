@@ -36,7 +36,7 @@ public class SerialNumber {
      * Returns the alternative serial number to be displayed.
      */
     public static String getSerialNumber() {
-        return SystemProperties.get("ro.tp-link.serialno");
+        return SystemProperties.get("ro.huawei.serialno");
     }
 
 }
